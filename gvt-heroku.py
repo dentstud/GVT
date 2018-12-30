@@ -108,7 +108,7 @@ mydb_20 = myclient_20 ["batbtc"]
 mycol_20 = mydb_20 ["data"]     # collection is mongo is same as a Table 
 
 
-myclient_21 = pymongo.MongoClient("mongodb://poya1:Muhammad00.@ds119161.mlab.com:19161/hotbtc")
+myclient_21 = pymongo.MongoClient("mongodb://poya:Muhammad00.@ds119161.mlab.com:19161/hotbtc")
 mydb_21 = myclient_21 ["hotbtc"]
 mycol_21 = mydb_21 ["data"] 
 
@@ -155,7 +155,7 @@ mycol_30 = mydb_30 ["data"]     # collection is mongo is same as a Table
 
 
 
-myclient_31 = pymongo.MongoClient("mongodb://poya1:Muhammad00.@ds127589.mlab.com:27589/xvgbtc")
+myclient_31 = pymongo.MongoClient("mongodb://poya:Muhammad00.@ds127589.mlab.com:27589/xvgbtc")
 mydb_31 = myclient_31 ["xvgbtc"]
 mycol_31 = mydb_31 ["data"] 
 
@@ -202,7 +202,7 @@ mycol_40 = mydb_40 ["data"]     # collection is mongo is same as a Table
 
 
 
-myclient_41 = pymongo.MongoClient("mongodb://poya1:Muhammad00.@ds163672.mlab.com:63672/mftbtc")
+myclient_41 = pymongo.MongoClient("mongodb://poya:Muhammad00.@ds163672.mlab.com:63672/mftbtc")
 mydb_41 = myclient_41 ["mftbtc"]
 mycol_41 = mydb_41 ["data"] 
 
